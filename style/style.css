@@ -21,6 +21,11 @@ body {
     font-size: 20px;
     font-weight: 600;
 }
+.text-title{
+    color:#151414;
+    font-size: 40px;
+    font-weight: 700;
+}
 
 /* header style */
 header {
@@ -44,8 +49,53 @@ header {
     font-weight: 700;
 }
 
-.header-con p{ 
+.header-con p {
     color: #444343;
     text-align: right;
     margin: 25px 0
 }
+
+/* main style */
+.main-container {
+    display: flex;
+    align-items: center;
+    padding: 100px 150px;
+    gap: 80px;
+    position: relative;
+}
+
+.main-colum .radius {
+    position: absolute;
+    width: 527.929px;
+    height: 527.929px;
+    border-radius: 500px;
+    background: rgba(241, 91, 34, 0.20);
+    top: 297px;
+    z-index: -1;
+    margin-left: 25px;
+}
+
+.main-colum2{
+    padding-top: 120px;
+}
+
+.colum-title {
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.colum-description{
+    color: #444343;
+    margin: 25px 0
+}
+
+.colum-list {
+    list-style-type: circle;
+}
+
+.colum-list li {
+    color: #444343;
+    margin: 10px 0;
+}
+/* my plan style */
