@@ -21,8 +21,9 @@ body {
     font-size: 20px;
     font-weight: 600;
 }
-.text-title{
-    color:#151414;
+
+.text-title {
+    color: #151414;
     font-size: 40px;
     font-weight: 700;
 }
@@ -75,7 +76,7 @@ header {
     margin-left: 25px;
 }
 
-.main-colum2{
+.main-colum2 {
     padding-top: 120px;
 }
 
@@ -85,7 +86,7 @@ header {
     font-weight: 700;
 }
 
-.colum-description{
+.colum-description {
     color: #444343;
     margin: 25px 0
 }
@@ -98,4 +99,95 @@ header {
     color: #444343;
     margin: 10px 0;
 }
+
 /* my plan style */
+
+section {
+    margin: 100px 150px;
+}
+
+.my-plans-container {
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+}
+
+.my-plans-title {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.images-title {
+    margin: 15px 0;
+    color: #151414;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.images-description {
+    color: #737272;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+/* last section */
+.images {
+    height: 250px;
+    background-image:url('../images/gradient2.png'),  url('../images/watch.png');
+    border-radius: 8px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 60px 0 0 10px;
+}
+
+.images h2 {
+    width: 50%;
+    color: #FFF;
+    font-size: 40px;
+    font-weight: 700;
+   
+}
+.images .btn{
+    color: #F15B22;
+   background: #FFF;
+   margin: 10px 0;
+}
+
+/* footer style */
+footer {
+    background: #151414;
+    color: #ffff;
+}
+.contact-container {
+    width: 100%;
+    display: flex;
+    padding: 130px 0;
+ 
+}
+.contact-title {
+    color: #F8F8F8;
+}
+.contact-colum {
+    width: 50%;
+    padding-left: 80px;
+}
+
+.contact-colum p , h4 , h5 {
+    margin: 20px 0;
+}
+
+.icon img{
+    padding-right: 10px;
+}
+
+.contact-colum input[type=email]{
+    margin: 10px 0;
+    border: 1px solid #fff;
+    padding: 10px 30px;
+}
+
+.contact-colum .btn {
+    color: #F15B22;
+   background: #FFF;
+   margin: 10px 0;
+}
